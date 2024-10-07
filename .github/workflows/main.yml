@@ -34,5 +34,4 @@ jobs:
         npm install
 
     - name: Start application with timeout
-      run: |
-        timeout 14520s npm run zokou
+      run: npm run zokou
